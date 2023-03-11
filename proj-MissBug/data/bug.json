@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "rgzVz",
+    "owner": {
+      "_id": "fjfhf8",
+      "fullname": "Muki Ja"
+    },
+    "title": "ddddd",
+    "description": "ddddd",
+    "severity": 2,
+    "createdAt": 1678297299854
+  },
+  {
+    "_id": "ACohenBUG",
+    "owner": {
+      "_id": "Coe",
+      "fullname": "Amit Cohen"
+    },
+    "title": "Very serious bug",
+    "description": "something crazy you don't even know",
+    "severity": 3,
+    "createdAt": 1678297210000
+  }
+]
