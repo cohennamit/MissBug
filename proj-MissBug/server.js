@@ -1,7 +1,6 @@
 const express = require('express')
 const cookieParser = require('cookie-parser')
 const app = express()
-const port = 3031
 
 const bugService = require('./services/bug.service')
 const userService = require('./services/user.service')
@@ -206,6 +205,9 @@ app.post('/api/auth/signup', (req, res) => {
         })
 })
 
+
+
+const port = process.env.PORT || 3031
 app.listen(port, () => {
     console.log(`Bug app listening on: http://localhost:${port}`)
 })

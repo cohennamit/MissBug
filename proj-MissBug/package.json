@@ -5,6 +5,7 @@
   "main": "simple-server.js",
   "scripts": {
     "start": "nodemon --ignore \"./data\" server.js",
+    "dev": "set PORT= 3050 &nodemon --ignore \"./data\" server.js",
     "show-files": "dir",
     "check-network": "ping google.com",
     "test": "echo \"Error: no test specified\" && exit 1"
